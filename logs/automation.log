@@ -1,0 +1,25 @@
+ %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n  %    d { HH:mm:ss.SSS ] t ] level % logger ( msg % n 2025-02-24 02:02:44.178 [main] INFO  api.test.UserTest - ******************** Creating user ************************
+2025-02-24 02:02:47.562 [main] INFO  api.test.UserTest - ************************ User Created ***********************
+2025-02-24 02:02:47.582 [main] INFO  api.test.UserTest - ******************** Reading user info ************************
+2025-02-24 02:02:49.007 [main] INFO  api.test.UserTest - ******************** User info displayed ************************
+2025-02-24 02:02:49.011 [main] INFO  api.test.UserTest - ******************** Updating User ************************
+2025-02-24 02:02:50.446 [main] INFO  api.test.UserTest - ******************** User is Updated ************************
+2025-02-24 02:02:51.879 [main] INFO  api.test.UserTest - ******************** Deleting user ************************
+2025-02-24 02:02:53.276 [main] INFO  api.test.UserTest - ******************** user Deleted ************************
+2025-02-24 02:03:45.465 [main] INFO  api.test.UserTest - ******************** Creating user ************************
+2025-02-24 02:03:48.938 [main] INFO  api.test.UserTest - ************************ User Created ***********************
+2025-02-24 02:03:48.957 [main] INFO  api.test.UserTest - ******************** Reading user info ************************
+2025-02-24 02:03:50.357 [main] INFO  api.test.UserTest - ******************** User info displayed ************************
+2025-02-24 02:03:50.362 [main] INFO  api.test.UserTest - ******************** Updating User ************************
+2025-02-24 02:03:51.787 [main] INFO  api.test.UserTest - ******************** User is Updated ************************
+2025-02-24 02:03:53.212 [main] INFO  api.test.UserTest - ******************** Deleting user ************************
+2025-02-24 02:03:54.642 [main] INFO  api.test.UserTest - ******************** user Deleted ************************
+2025-02-24 02:05:25.154 [main] DEBUG api.test.UserTest - ******* Debugging **************
+2025-02-24 02:05:25.184 [main] INFO  api.test.UserTest - ******************** Creating user ************************
+2025-02-24 02:05:28.727 [main] INFO  api.test.UserTest - ************************ User Created ***********************
+2025-02-24 02:05:28.741 [main] INFO  api.test.UserTest - ******************** Reading user info ************************
+2025-02-24 02:05:30.186 [main] INFO  api.test.UserTest - ******************** User info displayed ************************
+2025-02-24 02:05:30.190 [main] INFO  api.test.UserTest - ******************** Updating User ************************
+2025-02-24 02:05:31.594 [main] INFO  api.test.UserTest - ******************** User is Updated ************************
+2025-02-24 02:05:32.979 [main] INFO  api.test.UserTest - ******************** Deleting user ************************
+2025-02-24 02:05:34.366 [main] INFO  api.test.UserTest - ******************** user Deleted ************************
