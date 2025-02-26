@@ -1,5 +1,20 @@
 # API Automation Framework - Java | RestAssured | TestNG  
 
+## Screenshots  
+
+### Test Execution Screenshot  
+![Test Execution](screenshots/Screenshot%202025-02-18%20222534.png)  
+
+### API Request Example  
+![API Request](screenshots/Screenshot%202025-02-26%20095810.png)  
+
+### Test Report  
+![Test Report](screenshots/Screenshot%202025-02-26%20101834.png)  
+
+### Framework Structure  
+![Framework Structure](screenshots/Screenshot%202025-02-26%20101910.png)  
+
+
 ## Overview  
 This **API Automation Framework** is built using **Java** and **RestAssured**, with **TestNG** as the test runner. It provides a robust structure for validating RESTful API responses, handling authentication, and ensuring seamless API interactions through **Data-Driven Testing (DDT)**.
 
