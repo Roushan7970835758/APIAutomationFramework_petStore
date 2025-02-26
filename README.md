@@ -1,18 +1,16 @@
 # API Automation Framework - Java | RestAssured | TestNG  
+ 
+### Framework Design  
+![Test Execution](ss4.png)  
 
-## Screenshots  
-
-### Test Execution Screenshot  
-![Test Execution](screenshots/Screenshot%202025-02-18%20222534.png)  
-
-### API Request Example  
-![API Request](screenshots/Screenshot%202025-02-26%20095810.png)  
+### Folder Structure 
+![API Request](ss3.png)  
 
 ### Test Report  
-![Test Report](screenshots/Screenshot%202025-02-26%20101834.png)  
+![Test Report](ss3.png)  
 
 ### Framework Structure  
-![Framework Structure](screenshots/Screenshot%202025-02-26%20101910.png)  
+![Framework Structure](ss1.png)  
 
 
 ## Overview  
