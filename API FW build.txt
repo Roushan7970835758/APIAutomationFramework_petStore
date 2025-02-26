@@ -1,0 +1,155 @@
+API FW build
+
+Framework Development
+----------------------------------------
+Framework :- Maintain all project related files
+
+
+Objectives
+1)Re-useability
+2)Maintainability
+3)Readability
+
+Hybrid Driven
+
+Phases
+----------------------------------------
+1)Understanding requirement
+	-Functional Specification(static)
+	-swagger
+
+2)Choose automation tool  -RestAssured Library
+
+3)Design
+
+4) Development
+
+5)Execution + CI
+
+
+Framework Development
+-------------------------------------
+
+
+pre-requisites:
+------
+step1: Create Maven Project
+step2: Update pom.xml with required dependencies.
+step3: create folder cases
+
+-------
+step4: create routes.java  ---> contains URL's
+step5: create UserEndPoints.java   ----> CRUD methods implementation
+step6: Create test cases
+
+Step7: Create data driven test
+       Excel sheet data
+	ExcelUtility
+	Dataproviders
+
+Step8: Generate extent Reports
+	Extent reportUtility
+	testing.xml file
+	
+Step 9: Add logs
+	log4j2 dependency
+	log4j2.xml   ---> src/test/resource
+
+
+
+Eclipse   ---Maven
+ Install Maven on windows
+
+
+1) Execute tests using pom.xml within eclipse
+2) Execute tests using pom.xml in cmd prompt
+3) commit code in local repository(git)
+4)push your code to remote repository (GitHub)
+5)run project in Jenkins (from git GitHub)
+
+----------------------------------------------------
+CI Process
+---------------
+Pre-requisites
+---------------
+1)install git s/w
+2)create an account with GitHub and create empty repository.
+
+------------------------------------------------------
+
+Working Project loc: C:\Users\User\eclipse-workspace\TODO\petStroreAutomation
+
+1) git init ---> create an emtpy local repository
+
+2) git config --global user.name "your name"
+
+3) git status
+
+4) git add . --> add all the files & folders to staging area.
+
+5) git commit -m "comment"
+
+Push the code to remote repository
+
+6) git remote add origin "url"
+
+7) git push-u origin master
+
+
+
+---JINKINS-----
+----------------------------------------------------
+
+1) Download compatible java version, j17 or 21
+
+2) download Jenkins.War and open terminal in downloaded folder
+
+3) run cmd  
+	java -jar jenkins.war --httpPort=8080
+
+4) enter your username and password
+
+5) create new item , give your git path and cmd to run
+
+6) click on build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
