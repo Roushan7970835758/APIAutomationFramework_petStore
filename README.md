@@ -40,7 +40,7 @@ This **API Automation Framework** is built using **Java** and **RestAssured**, w
 ## Installation & Setup  
 1. Clone the repository:  
    ```sh  
-   git clone https://github.com/yourusername/api-automation-framework.git  
+   git clone https://github.com/Roushan7970835758/APIAutomationFramework_petStore.git  
    ```  
 2. Open the project in an IDE (Eclipse/IntelliJ).  
 3. Navigate to the project location in the terminal and install dependencies using Maven:  
