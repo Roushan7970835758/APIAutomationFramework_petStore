@@ -16,12 +16,12 @@ public class ExtentReportManager implements ITestListener {
     private ExtentReports extent;
     private ExtentTest test; // Thread-safe for parallel execution
     
-    String repName;
+    String repName = "PetStore_API";
 
     public void onStart(ITestContext context) {
     	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp repName="Test-Report-"+timeStamp+".html";
 
-    	sparkReporter=new ExtentSparkReporter(".\\reports\\"+repName);//specify location of the report
+    	sparkReporter=new ExtentSparkReporter(".\\reports\\"+"PetStore_Report");//specify location of the report
 
     	sparkReporter.config().setDocumentTitle("RestAssured AutomationProject"); // Title of report sparkReporter.config().setReportName("Pet Store Users API"); // name of the report
 
@@ -39,7 +39,7 @@ public class ExtentReportManager implements ITestListener {
 
     	extent.setSystemInfo("Environemnt", "QA");
 
-    	extent.setSystemInfo("user", "pavan");
+    	extent.setSystemInfo("user", "Roushan Kumar");
     }
 
 
