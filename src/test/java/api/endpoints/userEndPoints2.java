@@ -22,13 +22,17 @@ public class userEndPoints2 {
 	public static Response createUser(User payload) {
 		
 		String post_url  = getURL().getString("post_url");
-		Response res = given().contentType(ContentType.JSON).accept(ContentType.JSON).body(payload).when()
+		Response res = given().contentType(ContentType.JSON).accept(ContentType.JSON)
+				.body(payload)
+				.when()
 				.post(Routes.post_url);
 		return res;
 	}
 
 	public static Response getUser(String username) {
-		Response res = given().pathParam("username", username).when().get(Routes.get_url);
+		Response res = given().pathParam("username", username)
+				.when()
+				.get(Routes.get_url);
 		return res;
 	}
 
